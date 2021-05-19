@@ -1,28 +1,28 @@
 <template>
   <app-form>
-    <div class="help">
+    <template v-slot:help>
       <p>This is some help text.</p>
-    </div>
-    <div class="fields">
+    </template>
+    <template v-slot:fields>
       <input type="text" placeholder="email">
       <input type="text" placeholder="username">
       <input type="password" placeholder="password">
-    </div>
-    <div class="buttons">
+    </template>
+    <template v-slot:buttons>
       <button type="submit">Submit</button>
-    </div>
+    </template>
   </app-form>
   <app-form>
-    <div class="help">
+    <template v-slot:help>
       <p>Contact help text.</p>
-    </div>
-    <div class="fields">
+    </template>
+    <template v-slot:fields>
       <input type="text" placeholder="email">
       <input type="text" placeholder="message">
-    </div>
-    <div class="buttons">
+    </template>
+    <template v-slot:buttons>
       <button type="submit">Submit</button>
-    </div>
+    </template>
   </app-form>
 </template>
 
