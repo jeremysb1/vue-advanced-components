@@ -1,5 +1,5 @@
 <template>
   <form>
-    <slot></slot>
+    <slot>No form to render</slot>
   </form>
 </template>
