@@ -9,6 +9,13 @@ export default {
     return {
       msg: 'Yo world',
     };
-  };
+  },
 };
 </script>
+
+<style>
+
+p {
+  color: red;
+}
+</style>
